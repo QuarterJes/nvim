@@ -15,4 +15,4 @@ keymap.set("n", "<leader>wd", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<esc>", ":nohl<CR>", { remap = false, desc = "Remove search highlight" })
 keymap.set("t", "<esc>", "<C-\\><C-n>", { remap = false, desc = "Exit out of terminal mode" })
 
-keymap.set("n", "<leader>b", ":make", { desc = "Build file" })
+keymap.set("n", "<leader>b", ":make<CR>", { desc = "Build file" })
