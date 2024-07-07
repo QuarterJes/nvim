@@ -21,6 +21,9 @@ return {
 
 		mason_lspconfig.setup({
 			ensure_installed = {
+				"clang-format",
+				"codelldb",
+				"cpplint",
 				"jdtls",
 				"pyright",
 				"rust_analyzer",
@@ -37,8 +40,6 @@ return {
 		})
 		mason_tool_installer.setup({
 			ensure_installed = {
-				"clang-format",
-				"cpplint",
 				"prettier",
 				"stylua",
 				"isort",

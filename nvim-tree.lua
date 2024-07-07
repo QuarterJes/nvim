@@ -57,7 +57,5 @@ return {
 
 		keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle ~/Desktop<CR>", { desc = "Open/Close explorer" })
 		keymap.set("n", "<leader>E", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Open explorer on current path" })
-
-		vim.opt.autochdir = true
 	end,
 }
